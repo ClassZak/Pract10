@@ -31,7 +31,7 @@ namespace Pract10
             FinishCathcherEventArgs args = (FinishCathcherEventArgs)(eventArgs);
             if(args == null) 
                 throw new ArgumentException("Argument of event failed");
-            if ((args.x==9 && args.y==16) || (args.x==46 && args.y==17))
+            if ((args.x==10 && args.y==16) || (args.x==45 && args.y==17))
             {
                 if (FinishGame == null)
                     throw new Exception("Event have not receivers");
